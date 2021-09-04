@@ -1,0 +1,18 @@
+﻿<Window x:Class="DragDropWPFSample003.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DragDropWPFSample003"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <local:DragAndDropCanvas>
+        <Button Content="CopyThisText" Canvas.Top="10" Canvas.Left="10" 
+                local:DragAndDropCanvas.DropDataFormat="{x:Static DataFormats.Text}"
+                local:DragAndDropCanvas.DragSource="Button.Content" />
+
+        <Button Content="Drop here" Canvas.Top="300" Canvas.Left="300" 
+                local:DragAndDropCanvas.DropDataFormat="{x:Static DataFormats.Text}"
+                local:DragAndDropCanvas.DropTarget="Button.Content"/>
+    </local:DragAndDropCanvas>
+</Window>

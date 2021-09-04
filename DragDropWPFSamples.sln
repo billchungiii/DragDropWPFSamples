@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragDropWPFSample001", "Dra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragDropWPFSample002", "DragDropWPFSample002\DragDropWPFSample002.csproj", "{8EA72E3F-EDD0-4040-BE9C-A79F94E894D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragDropWPFSample003", "DragDropWPFSample003\DragDropWPFSample003.csproj", "{A8B4B992-58DA-4827-8E92-FBEF680CF4CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8EA72E3F-EDD0-4040-BE9C-A79F94E894D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EA72E3F-EDD0-4040-BE9C-A79F94E894D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EA72E3F-EDD0-4040-BE9C-A79F94E894D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B4B992-58DA-4827-8E92-FBEF680CF4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B4B992-58DA-4827-8E92-FBEF680CF4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B4B992-58DA-4827-8E92-FBEF680CF4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B4B992-58DA-4827-8E92-FBEF680CF4CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
